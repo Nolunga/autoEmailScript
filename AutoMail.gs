@@ -38,7 +38,7 @@ function sendMails() {
     
     
     
-    finalMsg = "Good day, Please arrange repair collection for " + fname + " " + lname + " . " + "\n"  + "\n" + message;
+    finalMsg = "Good day,  " + subject + fname + " " + lname + " . " + "\n"  + "\n" + message;
     
     finalMsg = finalMsg.replace("Model :","Model :" + model);
     finalMsg = finalMsg.replace("Serial number :","Serial number : " + serialNum);
